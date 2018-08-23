@@ -1,0 +1,12 @@
+# sinewave at frequency of freq1 for 1s
+constant:
+repeat_pos = 0 0
+repeat_num = 1
+ph1 = 0
+pw1 = 1
+freq1 = 31200
+p1 = 1
+
+configuration:
+# assume the labels start from 1 and go sequentially
+0 p1 freq1 pw1 ph1

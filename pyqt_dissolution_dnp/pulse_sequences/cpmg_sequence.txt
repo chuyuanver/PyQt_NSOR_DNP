@@ -1,0 +1,18 @@
+# cpmg sequence
+constant:
+repeat_pos = 1 4
+repeat_num = 10
+ph1 = 0
+pw1 = 1
+freq1 = 31200
+p1 = 0.01
+d1 = 0.1
+p2 = 0.02
+
+configuration:
+# assume the labels start from 1 and go sequentially
+0 p1 freq1 pw1 ph1
+1 d1
+2 p2 freq1 pw1 ph1
+3 d1
+4
